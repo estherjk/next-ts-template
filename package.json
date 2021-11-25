@@ -32,5 +32,9 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --fix"
+  },
+  "volta": {
+    "node": "16.13.0",
+    "yarn": "1.22.17"
   }
 }
