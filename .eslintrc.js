@@ -11,7 +11,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        jsxBracketSameLine: true,
+        bracketSameLine: true,
         printWidth: 100,
         semi: true,
         singleQuote: true,
