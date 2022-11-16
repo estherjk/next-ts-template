@@ -1,13 +1,25 @@
+# next-ts-template
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+It also comes configured with:
+
+- [Prettier](https://github.com/prettier/eslint-plugin-prettier)
+- [Husky](https://github.com/typicode/husky)
+- [Lint Staged](https://github.com/okonet/lint-staged)
 
 ## Getting Started
 
-First, run the development server:
+### Configuring Husky
+
+```bash
+npm run prepare
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -32,3 +44,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Additional References
+
+* [Next.js Docs - ESLint](https://nextjs.org/docs/basic-features/eslint)
+* [Set up a Next.js project with ESLint, Prettier, Husky, and Lint Staged](https://amanhimself.dev/blog/setup-nextjs-project-with-eslint-prettier-husky-lint-staged/)
+* [Commit Better Code with Husky, Prettier, ESLint, and Lint-Staged](https://www.coffeeclass.io/articles/commit-better-code-with-husky-prettier-eslint-lint-staged)
+* [Prettier integration doesn't seem to work](https://github.com/vercel/next.js/discussions/33413#discussioncomment-1989884)
